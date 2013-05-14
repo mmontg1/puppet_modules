@@ -2,7 +2,7 @@
 
 This is a Puppet module for Sshd that manages installation, and configuration
 
-* Note that this module allows overriding of the class parameter via ENC (Puppet Dashboard/Foreman) *
+* Note that this module allows overriding of the class parameter via ENC (Puppet Dashboard/Foreman)
 
 Made by Michael Montgomery <mmontg1@mindspring.com>
 
