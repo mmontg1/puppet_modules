@@ -1,19 +1,25 @@
 # Class: sshd
 #
-#   This module manages setting up sshd
+# This module manages installing, configuring
+# and managing the sshd daemon
 #
-#   Michael Montgomery <mmontg1@mindspring.com>
-#   2013-2-28
+# - Michael Montgomery <mmontg1@mindspring.com>
 #
-#   Tested platforms:
-#    - Ubuntu 10.04, 12.04
-#    - Redhat Enterprise 5, 6
+# Tested platforms:
+#   - Ubuntu 10.04, 12.04
+#   - Redhat Enterprise 5, 6
 #
 # Parameters:
+#   - ensure  
+#   -- do we want the daemon stopped or started?
+#   - autoupdate 
+#   -- allows for autoupdating of sshd package
+#   - root_login
+#   -- enables or disables root login
 #
 # Actions:
 #
-#  Installs, configures, and manages sshd
+#   - Installs, configures, and manages sshd
 #
 # Requires:
 #

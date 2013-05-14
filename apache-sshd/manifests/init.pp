@@ -6,6 +6,12 @@
 # I'm using my own sshd module as I'd like a bit more 
 # control over the sshd configuration.
 #
+# - Michael Montgomery <mmontg1@mindspring.com>
+#
+# Tested platforms:
+#   - Ubuntu 10.04, 12.04
+#   - Redhat Enterprise 5, 6
+#
 # Parameters:
 #
 # Actions:
