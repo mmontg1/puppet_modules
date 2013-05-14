@@ -12,3 +12,12 @@ Official git repository: http://github.com/mmontg1/puppet_modules
 
         class { 'apache-sshd': }
 
+## Requires
+
+* Since I didn't want to re-invent the wheel, it requires
+
+        puppetlabs/apache
+        
+* Also requires personal module
+
+        mmontg1/sshd
